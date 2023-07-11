@@ -10,4 +10,10 @@ def portfolio(request):
     context = {}
     return render (request, 'main/portfolio.html', context)
 
+def lang(request):
+    context = {}
+    return render (request, 'main/lang.html', context)
 
+def projects(request):
+    context = {}
+    return render(request, 'main/projects.html', context)
