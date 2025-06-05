@@ -5,3 +5,9 @@ from django.shortcuts import render
 def index(request):
     context = {}
     return render(request, 'main/index.html', context)
+def projects(request):
+    context = {}
+    return render(request, 'main/project.html', context)
+def skills(request):
+    context = {}
+    return render(request, 'main/skills.html', context)
